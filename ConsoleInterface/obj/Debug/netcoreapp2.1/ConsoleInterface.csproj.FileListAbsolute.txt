@@ -1,0 +1,17 @@
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\ConsoleInterface.deps.json
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\ConsoleInterface.runtimeconfig.json
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\ConsoleInterface.runtimeconfig.dev.json
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\ConsoleInterface.dll
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\ConsoleInterface.pdb
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\DataAccess.dll
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\GameLogic.dll
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\GameLogic.pdb
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\DataAccess.pdb
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\obj\Debug\netcoreapp2.1\ConsoleInterface.csprojAssemblyReference.cache
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\obj\Debug\netcoreapp2.1\ConsoleInterface.csproj.CoreCompileInputs.cache
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\obj\Debug\netcoreapp2.1\ConsoleInterface.AssemblyInfoInputs.cache
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\obj\Debug\netcoreapp2.1\ConsoleInterface.AssemblyInfo.cs
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\obj\Debug\netcoreapp2.1\ConsoleInterface.csproj.CopyComplete
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\obj\Debug\netcoreapp2.1\ConsoleInterface.dll
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\obj\Debug\netcoreapp2.1\ConsoleInterface.pdb
+C:\Users\davidmikh\source\repos\PokemonCloneExample\ConsoleInterface\bin\Debug\netcoreapp2.1\Data\FlatFiles\Pokemon.txt

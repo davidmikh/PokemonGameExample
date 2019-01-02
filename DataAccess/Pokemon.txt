@@ -1,0 +1,49 @@
+[
+    {
+        "Name": "Gengar",
+        "MaxHP": 130,
+        "Moves": [
+            { 
+                "Name": "Confusion",
+                "PP": 20,
+                "Power": 70        
+            },
+            { 
+                "Name": "Shadow Ball",
+                "PP": 15,
+                "Power": 90   
+            },
+            { 
+                "Name": "Hyper Beam",
+                "PP": 5,
+                "Power": 120
+            },
+            { 
+                "Name": "Lick",
+                "PP": 25,
+                "Power": 50
+            }
+        ]
+    },
+    {
+        "Name": "Slowpoke",
+        "MaxHP": 98,
+        "Moves": [
+            { 
+                "Name": "Confusion",
+                "PP": 20,
+                "Power": 70        
+            },
+            { 
+                "Name": "Lick",
+                "PP": 25,
+                "Power": 50
+            },
+            { 
+                "Name": "Surf",
+                "PP": 20,
+                "Power": 75
+            }
+        ]
+    },
+]

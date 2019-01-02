@@ -4,4 +4,19 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Data\FlatFiles\Pokemon.txt" />
+    <None Remove="Pokemon.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\FlatFiles\Pokemon.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
 </Project>

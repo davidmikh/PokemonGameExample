@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLogic", "GameLogic\GameLogic.csproj", "{D2BFCC18-7E51-41A6-8B7F-CCFE647965DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameLogic", "GameLogic\GameLogic.csproj", "{D2BFCC18-7E51-41A6-8B7F-CCFE647965DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9B56217C-6CD9-4781-934A-398E1BD48A8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9B56217C-6CD9-4781-934A-398E1BD48A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleInterface", "ConsoleInterface\ConsoleInterface.csproj", "{681882FD-DF58-4062-94F2-D95BF4085A40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9B56217C-6CD9-4781-934A-398E1BD48A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B56217C-6CD9-4781-934A-398E1BD48A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B56217C-6CD9-4781-934A-398E1BD48A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681882FD-DF58-4062-94F2-D95BF4085A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681882FD-DF58-4062-94F2-D95BF4085A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681882FD-DF58-4062-94F2-D95BF4085A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681882FD-DF58-4062-94F2-D95BF4085A40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
