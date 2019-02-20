@@ -18,8 +18,8 @@ namespace GameLogic
         
         public Game()
         {
-            dataAccessManager = new FlatFileDataAccessManager();
-
+            //dataAccessManager = new FlatFileDataAccessManager();
+            dataAccessManager = new DatabaseDataAccessManager();
 
             var pokemon = dataAccessManager.GetPokemon("Gengar");
             var pokemon2 = dataAccessManager.GetPokemon("Slowpoke");

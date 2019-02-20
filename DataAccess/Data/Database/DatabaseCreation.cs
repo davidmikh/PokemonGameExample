@@ -15,13 +15,13 @@ namespace DataAccess.Data.Database
 
             string createAbilityTableStr = "CREATE TABLE Ability " +
                 "(ID INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                "Name VARCHAR NOT NULL, " +
+                "AbilityName VARCHAR NOT NULL, " +
                 "PP INTEGER NOT NULL, " +
                 "Power INTEGER NOT NULL);";
 
             string createPokemonTableStr = "CREATE TABLE Pokemon " +
                 "(ID INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                "Name VARCHAR NOT NULL, " +
+                "PokemonName VARCHAR NOT NULL, " +
                 "HP INTEGER NOT NULL, " +
                 "MoveOneID INTEGER, " +
                 "MoveTwoID INTEGER, " +
@@ -52,14 +52,14 @@ namespace DataAccess.Data.Database
 
         public static void PopulateDatabase(String dbURL)
         {
-            string populateMovesTableStr = "INSERT INTO Ability ('Name', 'PP', 'Power') VALUES " +
+            string populateMovesTableStr = "INSERT INTO Ability ('AbilityName', 'PP', 'Power') VALUES " +
                 "('Confusion', 20, 70)," +
                 "('Shadow Ball', 15, 90)," +
                 "('Hyper Beam', 5, 120)," +
                 "('Lick', 25, 50)," +
                 "('Surf', 20, 75);";
 
-            string populatePokemonTableStr = "INSERT INTO Pokemon ('Name', 'HP') VALUES " +
+            string populatePokemonTableStr = "INSERT INTO Pokemon ('PokemonName', 'HP') VALUES " +
                 "('Gengar', 130)," +
                 "('Slowpoke', 98);";
 
@@ -92,7 +92,7 @@ namespace DataAccess.Data.Database
 
         private static string SelectPokemonIDQuery(String pokemonName)
         {
-            return String.Format("(SELECT ID FROM Pokemon WHERE Name = '{0}')", pokemonName);
+            return String.Format("(SELECT ID FROM Pokemon WHERE PokemonName = '{0}')", pokemonName);
         }
 
         private static string InsertPokemonAbilitiesStatement(String pokemonName, String abilityName)
@@ -102,7 +102,7 @@ namespace DataAccess.Data.Database
 
         private static string SelectAbilityIDQuery(String abilityName)
         {
-            return String.Format("(SELECT ID FROM Ability WHERE Name = '{0}')", abilityName);
+            return String.Format("(SELECT ID FROM Ability WHERE AbilityName = '{0}')", abilityName);
         }
     }
 }
