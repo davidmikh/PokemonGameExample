@@ -1,5 +1,4 @@
-﻿using DataAccess.Data.Database;
-using DataAccess.DataModels;
+﻿using DataAccess.DataModels;
 using DataAccess.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -16,8 +15,6 @@ namespace DataAccess.FlatFileDataAccess
 
         public DatabaseDataAccessManager()
         {
-            DatabaseCreation.CreateDatabase(dbUrl);
-            DatabaseCreation.PopulateDatabase(dbUrl);
         }
 
         public PokemonModel GetPokemon(string name)
